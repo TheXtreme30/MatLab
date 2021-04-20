@@ -12,8 +12,8 @@ function [F,X,Y] = reading(n)
     A = fscanf(F,'%f',[2 n]);
     fclose(F)
     for k = 1:n
-        X(k) = A(1,k);
-        Y(k) = A(2,k);
+        Xu(k) = A(1,k);
+        Yu(k) = A(2,k);
     end
 
 end
